@@ -1,0 +1,61 @@
+.LinkedIn{
+    width: 2.9em;
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+}
+.logoContact{
+    display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: center;
+}
+footer{
+overflow: auto;
+    background: linear-gradient(358deg, var(--primaire-color) 55%, var(--secondaire-color) 2%, var(--secondaire-color) 100%);
+    animation: backgroundAnimation 1.8s forwards;
+    background-position: 1% 40%;
+    background-size: 200% 500%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    
+    justify-content: center;
+    padding: 1em;
+        padding-top: 3em;
+}
+.link{
+
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 2em;
+    margin-bottom:0.5em ;
+    
+}
+.navFooter{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .link {
+    
+            text-decoration: none;
+            color: var(--font-color);
+            font-size: 1em;
+            margin-bottom: 0.5em;
+        }
+                .logoContact {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 0.4em;
+                }
+
+                                .LinkedIn {
+                                    width: 1.5em;
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap: 1em;
+                                }
+}

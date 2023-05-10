@@ -1,0 +1,178 @@
+.listOutils {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.sizeLogo{
+    
+    height:3em;
+}
+
+.containerDescription {
+    margin-top: -50%;
+    background-color: var(--primaire-color);
+    animation: animateContainer 1.6s forwards 1.4s;
+    border-radius: 0em 0em 0.4em 0.4em;
+    padding: 4em 1em 1em 1em;
+
+}
+
+.animateProjet {
+    animation: animateProject 1.6s forwards;
+
+}
+
+.btnPos {
+    display: flex;
+    justify-content: center;
+}
+
+.btnLink {
+    padding: 1em 2em 1em 2em;
+    border-radius: 2.3em;
+    font-size: 1.4em;
+    background-color: var(--secondaire-color);
+    color: aliceblue;
+    opacity: 0;
+    border: none;
+    animation: btnAnimate 1s forwards 2s;
+
+}
+
+
+
+@keyframes animateProject {
+
+
+    0% {
+        margin: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+}
+
+
+
+@keyframes animateContainer {
+
+
+    0% {
+
+        transform: scaleY(0.5);
+    }
+
+    100% {
+        transform: scaleY(1);
+        margin-top: -2em;
+    }
+}
+
+
+
+
+@keyframes btnAnimate {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .projet {
+        margin-top: 0em;
+        margin-bottom: 3em;
+    }
+@keyframes animateProject {
+
+
+    0% {
+        margin: 0;
+        
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+        margin-top: 1em;
+        margin-bottom: 5em;
+    }
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.btnLink {
+    padding: 0.8em 1em 0.8em 1em;
+    border-radius: 2.3em;
+    font-size: 1em;
+    background-color: var(--secondaire-color);
+    color: aliceblue;
+    opacity: 0;
+    animation: btnAnimate 1s forwards 2s;
+
+
+}
+
+.containerDescription {
+    transform: scaleY(0.2);
+    margin-top: -40%;
+    background-color: var(--primaire-color);
+    animation: animateContainer 1.6s forwards 1.4s;
+    border-radius: 0em 0em 0.4em 0.4em;
+    padding: 3em 1em 1em 1em;
+
+}
+
+
+.listOutils {
+    list-style: none;
+    padding-left: 4px;
+    margin-top: 10px;
+   margin-bottom: 10px;
+justify-content:flex-start;
+ 
+}
+
+.lineS{
+    margin-top: 10px;
+    width: 70%;
+    background-color: rgb(31, 31, 31);
+    height: 1px;
+}
+
+
+.containerCard{
+    display: flex;
+    align-items: center;
+}
+
+.sizeLogo {
+
+    height: 2em;
+}
+
+}
+

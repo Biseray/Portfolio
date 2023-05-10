@@ -1,0 +1,87 @@
+.flecheLeft {
+    animation: flechOpacity 4s forwards;
+
+}
+
+.flecheRight {
+    animation: flechOpacity 4s forwards;
+    ;
+}
+
+.posCarousel {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.3em;
+
+}
+
+
+.containerCarousel {
+    z-index: 22;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 1000px;
+    align-items: center;
+}
+
+.posFleche {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.posFleche {
+    animation: flechOpacity 1.7s forwards;
+    opacity: 1;
+}
+
+@keyframes flechOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+   
+    .containerCarousel {
+        z-index: 22;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        align-items: center;
+        object-fit: none;
+    }
+
+
+    .posCarousel {
+        width: 100%;
+        height: 200px;
+        border-radius: 1.3em 1.3em 0em 0em;
+        object-fit: cover;
+    }
+
+    .flecheLeft img {
+        width: 2em;
+    }
+
+    .flecheRight img {
+        width: 2em;
+    }
+
+  
+
+}
