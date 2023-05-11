@@ -1,6 +1,6 @@
 import React from 'react'
 
-function error404() {
+function Error404() {
   return (
     <div>
       erreur 404
@@ -8,4 +8,4 @@ function error404() {
   )
 }
 
-export default error404
+export default Error404;
