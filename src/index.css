@@ -42,7 +42,7 @@ background-color: rgb(0, 0, 0);
   overflow: auto;
   background: linear-gradient(165deg,var(--primaire-color) 7%,var(--secondaire-color) 2%,var(--secondaire-color) 100%);
   animation: backgroundAnimation 1.8s  forwards;
-  background-size: 500% 500%;
+  background-size: 500% 900%;
 
 background-repeat: no-repeat;
 }

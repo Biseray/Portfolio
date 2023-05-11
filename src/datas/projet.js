@@ -8,10 +8,11 @@ import galleryMobile from "../assets/gallery/gallery-biseray-mobile.png"
 import galleryFicheDetails from "../assets/gallery/fiche-photo-gallery.png"
 
 
-import kanapFormulairePanier from "../assets/kanap/formulaire-panier.png"
-import kanapPanier from "../assets/kanap/kanap-panier.png"
-import kanapProduit from "../assets/kanap/produit-kanap.png"
-import kanapAccueil from "../assets/kanap/site-kanap-accueil.png"
+import GMaccueil from "../assets/GreenMarket/accueil.jpg"
+import GMficheProduit from "../assets/GreenMarket/ficheProduit.jpg"
+import GMapropos from "../assets/GreenMarket/apropos.jpg"
+import GMlesProduits from "../assets/GreenMarket/lesProduits.jpg"
+import GMPanier from "../assets/GreenMarket/panier.jpg"
 
 
 import ohmyfoodMobile from "../assets/ohmyfood/ohmyfood-mobile.png"
@@ -29,72 +30,34 @@ const projetList = [
         "id": "ad4632",
         "title": "Kasa ",
 
-        
+
 
         "pictures": [KasaAccueil, kasaApropos, kasaFicheDetailLocation],
         "description": " Le site Kasa est un site qui regroupe plusieurs locations. Sur ce site j'ai utiliser React nous retrouvont plusieurs composant reutilisable.",
         "outil": [
             reactLogo,
             cssLogo,
-            
-            
+
+
         ],
 
         "link": "https://biseray.github.io/kasa"
 
-        
+
 
     },
-    {
-        "id": "ad4633",
-        "title": "Galerie photo ",
-
-
-
-        "pictures": [galleryLoader, galleryAccueil, galleryMobile, galleryFicheDetails],
-        "description": " Description ",
-        "outil": [
-            htmlLogo,
-            jsLogo,
-            cssLogo,
-             
-
-
-        ],
- 
-        "link": "https://biseray.github.io/galleryPhoto-/",
-
-    },  
-    {
-        "id": "ad4634",
-        "title": "Kanap ",
-
-
-
-        "pictures": [kanapAccueil, kanapFormulairePanier, kanapPanier, kanapProduit,  ],
-        "description": " Description ",
-        "outil": [
-            htmlLogo,
-            cssLogo,
-           jsLogo,
-
-
-        ],
-
-    },
-
     {
         "id": "ad4635",
         "title": "OhMyFood ",
 
 
 
-        "pictures": [ohmyfoodAccueil,ohmyfoodMenu, ohmyfoodMobile,],
-        "description": " Description ",
+        "pictures": [ohmyfoodAccueil, ohmyfoodMenu, ohmyfoodMobile,],
+        "description": "  le site OhMyFood est un site qui affiche des menus pour plusieurs restaurants entant developper en mobile First . Il y a plusieurs animation et transitions present sur le site.",
         "outil": [
             htmlLogo,
             cssLogo,
-           
+
 
 
         ],
@@ -102,6 +65,50 @@ const projetList = [
         "link": "https://biseray.github.io/p3_oc_biseray/"
 
     },
+
+    {
+        "id": "ad4633",
+        "title": "Galerie photo ",
+
+
+
+        "pictures": [galleryLoader, galleryAccueil, galleryMobile, galleryFicheDetails],
+        "description": "Ce site est une galerie photos qui affiche quelques photos,  on peut cliquer sur les images pour avoir l'image agrandie  ",
+        "outil": [
+            htmlLogo,
+            jsLogo,
+            cssLogo,
+
+
+
+        ],
+
+        "link": "https://biseray.github.io/galleryPhoto-/",
+
+    },
+    {
+        "id": "ad4634",
+        "title": "GreenMarket ",
+
+
+
+        "pictures": [
+            GMaccueil,
+            GMficheProduit,
+            GMlesProduits,
+            GMPanier,
+            GMapropos,
+        ],
+        "description": " Ce site a été créé en utilisant React et est un site e- commerce.Il comprend plusieurs composants, tels que le carrousel, les cardPlant, ainsi qu'une page panier.",
+        "outil": [
+            reactLogo,
+            cssLogo,
+
+
+        ],
+        "link": "https://biseray.github.io/GreenMarket/",
+    },
+
 
 ]
 
