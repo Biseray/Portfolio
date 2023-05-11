@@ -6,9 +6,9 @@ import BaseLayout from "./components/BaseLayout";
 import MesProjets, { projetLoader } from "./page/mesprojets"
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path="/AllanBiseray" element={<BaseLayout /> }> 
+  <Route path="/" element={<BaseLayout /> }> 
     <Route index element={<Home />} />
-    <Route path="/AllanBiseray/MesProjets" element={<MesProjets />} loader={projetLoader} />
+    <Route path="/MesProjets" element={<MesProjets />} loader={projetLoader} />
   </Route>
 ))
 function App() {
