@@ -15,8 +15,8 @@ export default function Navigation() {
      
           
         <nav className={style.navPc}>
-        <NavLink to="/AllanBiseray" > Profil </NavLink>
-        <NavLink to="/AllanBiseray/MesProjets" >  Projets  </NavLink>
+        <NavLink to="/portfolio-Allan-Biseray" > Profil </NavLink>
+        <NavLink to="/portfolio-Allan-Biseray/MesProjets" >  Projets  </NavLink>
         <NavLink  to="mailto:allan.biseray.pro@outlook.fr" > Contact </NavLink>
         </nav>
 
@@ -29,9 +29,9 @@ export default function Navigation() {
           </button>
           {menuOpen && (
             <nav className={style.navHamburger} >
-                <NavLink to="/AllanBiseray" onClick={() => SetMenuOpen(!menuOpen)} >  Profil </NavLink>
+                <NavLink to="/portfolio-Allan-Biseray" onClick={() => SetMenuOpen(!menuOpen)} >  Profil </NavLink>
                 <div className={style.lineNav}> </div>
-                <NavLink to="/AllanBiseray/MesProjets" onClick={() => SetMenuOpen(!menuOpen)}>  Projets  </NavLink>
+                <NavLink to="/portfolio-Allan-Biseray/MesProjets" onClick={() => SetMenuOpen(!menuOpen)}>  Projets  </NavLink>
                 <div className={style.lineNav}> </div>
                 <NavLink to="mailto:allan.biseray.pro@outlook.fr" onClick={() => SetMenuOpen(!menuOpen)}> Contact </NavLink>
                 <div className={style.lineNav}> </div>
