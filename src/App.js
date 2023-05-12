@@ -8,9 +8,9 @@ import Error404 from "./page/error404";
 
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/portfolio-Allan-Biseray" element={<BaseLayout />} errorElement={<Error404 />}>
+    <Route path="/" element={<BaseLayout />} errorElement={<Error404 />}>
       <Route index element={<Home />} />
-      <Route path="/portfolio-Allan-Biseray/MesProjets" element={<MesProjets />} loader={projetLoader} />
+      <Route path="/MesProjets" element={<MesProjets />} loader={projetLoader} />
      
     </Route>
 ))
