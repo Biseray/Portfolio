@@ -33,7 +33,7 @@ const projetList = [
 
 
         "pictures": [KasaAccueil, kasaApropos, kasaFicheDetailLocation],
-        "description": " Le site Kasa est un site qui regroupe plusieurs locations. Sur ce site j'ai utiliser React nous retrouvont plusieurs composant reutilisable.",
+        "description": "Le site Kassa est un site qui regroupe plusieurs locations de logements. Sur ce site j'ai utilisé React, nous retrouvons plusieurs composants réutilisables. ",
         "outil": [
             reactLogo,
             cssLogo,
@@ -53,7 +53,7 @@ const projetList = [
 
 
         "pictures": [ohmyfoodAccueil, ohmyfoodMenu, ohmyfoodMobile,],
-        "description": "  le site OhMyFood est un site qui affiche des menus pour plusieurs restaurants entant developper en mobile First . Il y a plusieurs animation et transitions present sur le site.",
+        "description": "Le site OhMyFood est un site qui affiche des menus pour plusieurs restaurants entant développer en mobile first . Il y a plusieurs animations et transitions présentes sur le site",
         "outil": [
             htmlLogo,
             cssLogo,

@@ -18,8 +18,7 @@ export default function Home() {
                     <div className={style.TextPres}>
                         J'ai une attitude positive et j'apprécie le travail en équipe,
                         tout en étant rigoureux sur le respect des délais.
-                         J'ai une attitude positive et j'apprécie le travail en équipe,
-                        tout en étant rigoureux sur le respect des délais.
+                         
                     </div>
                     <div className={style.TextPres}>
                          Mon objectif de carrière est de devenir un développeur web front-end accompli
