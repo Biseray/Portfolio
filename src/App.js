@@ -7,6 +7,7 @@ import MesProjets, { projetLoader } from "./page/mesprojets"
 import Error404 from "./page/error404";
 
 
+
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<BaseLayout />} errorElement={<Error404 />}>
       <Route index element={<Home />} />
@@ -16,7 +17,9 @@ import Error404 from "./page/error404";
 ))
 function App() {
   return (
+    
     <RouterProvider router={router} /> 
+   
 
   );
 }
