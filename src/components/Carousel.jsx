@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import style from "../style/carousel.module.css"
 import rightArrow from "../assets/right-arrow.png"
@@ -7,6 +7,14 @@ import leftArrow from "../assets/left-arrow.png"
 
 export default function Carousel({ pictures }) {
     const [picturesIndex, setPicturesIndex] = useState(0)
+
+
+    useEffect(() => {
+        const interval = setInterval(handleNextClick, 2000)
+        return () => {
+            clearInterval(interval)
+        }
+})
 
 //click retour 
     const handlePrevClick = () => {
