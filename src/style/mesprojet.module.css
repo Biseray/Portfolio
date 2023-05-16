@@ -1,12 +1,31 @@
-.projet{
+.projet {
     margin-top: 3em;
     margin-bottom: 3em;
+    opacity: 0;
+    animation: projetCard forwards 4s;
+}
+
+@keyframes projetCard {
+    0% {
+        opacity: 0;
+
+    }
+
+    40% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
+
 @media screen and (max-width: 991px) {
-.projet {
-    z-index: 1;
+    .projet {
+        z-index: 1;
         padding: 1em;
         margin-top: 0em;
         margin-bottom: 3em;
