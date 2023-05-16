@@ -41,7 +41,7 @@ background-color: rgb(0, 0, 0);
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
   background: linear-gradient(165deg,var(--primaire-color) 7%,var(--secondaire-color) 2%,var(--secondaire-color) 100%);
-  animation: backgroundAnimation 1.8s  forwards 3s;
+  animation: backgroundAnimation 2.4s  forwards 1.4s;
   background-size: 500% 900%;
   background-position: 100% 100%;
 
