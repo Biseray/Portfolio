@@ -6,7 +6,7 @@
 margin: 1em 0em 1em 0em;
 font-size:2em;
 opacity: 0;
-animation: nexTxt 2.7s forwards 1s ;
+animation: nexTxt 2.7s forwards 0s ;
 
 }
 
@@ -26,7 +26,7 @@ animation: nexTxt 2.7s forwards 1s ;
     margin-top: 4em;
     margin-left: 10%;
     opacity: 0;
-        animation: TextPres 2.7s forwards 1s;
+        animation: TextPres 2.7s forwards 0s;
 
 }
 
@@ -39,7 +39,7 @@ margin-top: -3em;
     line-height:2em;
     font-size: 1.3em;
     opacity: 0;
-    animation: Pres 2.5s forwards 1s; 
+    animation: Pres 2.5s forwards 0s; 
 }
 
 
