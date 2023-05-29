@@ -33,7 +33,7 @@ const projetList = [
 
 
         "pictures": [KasaAccueil, kasaApropos, kasaFicheDetailLocation],
-        "description": "Le site Kassa est un site qui regroupe plusieurs locations de logements. Sur ce site j'ai utilisé React, nous retrouvons plusieurs composants réutilisables. ",
+        "description": "Le site Kasa est un site qui regroupe plusieurs locations de logements.Sur ce site j'ai utilisé React, nous retrouvons plusieurs composants réutilisables. ",
         "outil": [
             reactLogo,
             cssLogo,
