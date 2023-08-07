@@ -9,10 +9,15 @@
     border: 1px solid white;
 
 }
+.containerLoaderPage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .loaderBar {
-    
     position: absolute;
     font-size: 3em;
 

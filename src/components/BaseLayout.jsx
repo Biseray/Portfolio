@@ -14,18 +14,19 @@ function BaseLayout() {
     },[])
     return (
         <>
-            
             <Navigation />
-           
             <main>
-                {loader ? (<Loader />) : (
-                    <Outlet />
+                {loader ? (
+                    <Loader />
+                ) : (
+                    <>
+                        <Outlet />
+                        <Footer />
+                    </>
                 )}
             </main>
-            <Footer/>
         </>
-    )
-    
+    );
 }
 
 export default BaseLayout;

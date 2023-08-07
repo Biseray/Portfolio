@@ -8,7 +8,7 @@ import style from "../style/footer.module.css"
 
 export default function Footer() {
     return(
-        <div>
+       
             <footer >
                 <nav className={style.navFooter}>
                     <NavLink className={style.link} to="mailto:allan.biseray.pro@outlook.fr" > Contact </NavLink>
@@ -20,6 +20,6 @@ export default function Footer() {
                     
             </footer>
         
-        </div>
+      
     )
 }

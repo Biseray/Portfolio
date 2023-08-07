@@ -44,10 +44,13 @@
     padding: 1em 2em 1em 2em;
     border-radius: 2.3em;
     font-size: 1.4em;
-    background-color: var(--secondaire-color);
+    border:none;
+    
+    box-shadow: inset 1px -1px 5px 0px #000000;
+    background: linear-gradient(180deg, var(--primaire-color) 0%, var(--secondaire-color) 40%, var(--secondaire-color) 100%);
     color: aliceblue;
     opacity: 0;
-    border: none;
+   
     animation: btnAnimate 1s forwards 2s;
 
 }
