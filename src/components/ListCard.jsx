@@ -7,7 +7,6 @@ function ListCard({ dataProjets }) {
             {dataProjets.map(({ id, title, pictures, description, outil, link }) =>
 
                 <CardProjet
-
                     key={id}
                     id={id}
                     pictures={pictures}

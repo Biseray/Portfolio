@@ -8,31 +8,42 @@
     justify-content: center;
 }
 
-.sizeLogo{
-    
-    height:3em;
+.sizeLogo {
+
+    height: 3em;
+}
+
+.contenaireCard {
+    background-color: var(--primaire-color);
+    padding: 1em;
+    box-shadow: inset 1px -1px 5px 0px #000000;
+    border-radius: 2em;
 }
 
 .containerDescription {
-    
     margin-top: -50%;
     background-color: var(--primaire-color);
-    animation: animateContainer 1.6s forwards 1.4s;
     border-radius: 0em 0em 0.4em 0.4em;
     padding: 4em 0em 3em 0em;
     width: 100%;
     transform: scaleY(0);
 
+    animation: animateContainer 1.6s forwards 1.4s;
+    will-change: transform;
+
 }
 
 .animateProjet {
+
     animation: animateProject 1.6s forwards;
     transform: scale(0);
+    will-change: transform;
 
 }
-.description{
+
+.description {
     margin: 1em;
-    font-size: 2em ;
+    font-size: 2em;
 }
 
 .btnPos {
@@ -44,18 +55,17 @@
     padding: 1em 2em 1em 2em;
     border-radius: 2.3em;
     font-size: 1.4em;
-    border:none;
-    
+    border: none;
     box-shadow: inset 1px -1px 5px 0px #000000;
     background: linear-gradient(180deg, var(--primaire-color) 0%, var(--secondaire-color) 40%, var(--secondaire-color) 100%);
     color: aliceblue;
     opacity: 0;
-   
-    animation: btnAnimate 1s forwards 2s;
 
+    animation: btnAnimate 1s forwards 2s;
+    will-change: transform;
 }
 
-.containerCardAll{
+.containerCardAll {
     width: 800px;
 }
 
@@ -81,11 +91,11 @@
 
     0% {
 
-        transform: scaleY(0.5);
+        transform: scale(0.5);
     }
 
     100% {
-        transform: scaleY(1);
+        transform: scale(1);
         margin-top: -2em;
     }
 }
@@ -116,80 +126,77 @@
         margin-top: 0em;
         margin-bottom: 3em;
     }
-@keyframes animateProject {
+
+    @keyframes animateProject {
 
 
-    0% {
-        margin: 0;
+        0% {
+            margin: 0;
+
+            transform: scale(0);
+        }
+
+        100% {
+            transform: scale(1);
+            margin-top: 1em;
+            margin-bottom: 5em;
+        }
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .btnLink {
+        padding: 0.8em 1em 0.8em 1em;
+        border-radius: 2.3em;
+        font-size: 1em;
+        background-color: var(--secondaire-color);
+        color: aliceblue;
+        opacity: 0;
+        animation: btnAnimate 1s forwards 2s;
+
+
+    }
+
+    .containerDescription {
+      transform: scale(1);
+        margin-top: 0%;
+        background-color: var(--primaire-color);
+        animation: none;
+        padding: 1em 0em 1em 0em;
         
-        transform: scale(0);
     }
 
-    100% {
-        transform: scale(1);
-        margin-top: 1em;
-        margin-bottom: 5em;
+    .listOutils {
+        list-style: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
     }
-}
 
-h2 {
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
+    .lineS {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 70%;
+        background-color: rgb(31, 31, 31);
+        height: 1px;
+    }
 
-.btnLink {
-    padding: 0.8em 1em 0.8em 1em;
-    border-radius: 2.3em;
-    font-size: 1em;
-    background-color: var(--secondaire-color);
-    color: aliceblue;
-    opacity: 0;
-    animation: btnAnimate 1s forwards 2s;
+    .description {
+        margin: 0em;
+        font-size: 1em;
+    }
 
+    .containerCard {
+        display: flex;
+        align-items: center;
+    }
 
-}
+    .sizeLogo {
 
-.containerDescription {
-    transform: scaleY(0.2);
-    margin-top: -40%;
-    background-color: var(--primaire-color);
-    animation: animateContainer 1.6s forwards 1.4s;
-    border-radius: 0em 0em 0.4em 0.4em;
-    padding: 3em 0em 1em 0em;
-    box-shadow: 1px 3px 1px black;
+        height: 2em;
+    }
 
 }
-
-
-.listOutils {
-    list-style: none;
-    
-    margin-top: 10px;
-   margin-bottom: 10px;
-justify-content:center;
- 
-}
-
-.lineS{
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 70%;
-    background-color: rgb(31, 31, 31);
-    height: 1px;
-}
-
-.description {
-    margin: 0em 1em 1em 1em;
-}
-.containerCard{
-    display: flex;
-    align-items: center;
-}
-
-.sizeLogo {
-
-    height: 2em;
-}
-
-}
-

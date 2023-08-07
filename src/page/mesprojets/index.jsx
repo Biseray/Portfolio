@@ -6,13 +6,11 @@ import ListCard from '../../components/ListCard';
 
 
 export default function MesProjets() {
-  const dataProjets = useLoaderData(); 
+  const dataProjets = useLoaderData();
 
   return (
     <div className={style.projet}>
-<ListCard dataProjets={dataProjets}/>
-         
-      
+      <ListCard dataProjets={dataProjets} />
     </div>
   )
 }

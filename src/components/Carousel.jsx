@@ -33,12 +33,10 @@ export default function Carousel({ pictures }) {
         let nextIndex = picturesIndex + 1;
         if (nextIndex > pictures.length -1 ) {
             nextIndex = 0
-
         }; setPicturesIndex(nextIndex)
     }
 
-  
-    
+
     return (
         <div className={style.containerCarousel}>
             <img src={pictures[picturesIndex]} alt="" className={style.posCarousel}  />
