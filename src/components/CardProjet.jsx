@@ -14,10 +14,8 @@ function CardProjet({ id, title, pictures, description, outil, link }) {
     return (
         <div key={id} className={style.animateProjet}>
             <h2>{title}</h2>
-
             <div className={style.contenaireCard}>
                 <Carousel pictures={pictures} />
-
                 <div className={style.containerDescription}>
                     <div className={style.description}>{description}</div>
                     <div className={style.lineS}></div>

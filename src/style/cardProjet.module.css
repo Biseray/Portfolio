@@ -9,7 +9,6 @@
 }
 
 .sizeLogo {
-
     height: 3em;
 }
 
@@ -18,32 +17,27 @@
     padding: 1em;
     box-shadow: inset 1px -1px 5px 0px #000000;
     border-radius: 2em;
+    text-rendering: optimizeLegibility;
 }
 
 .containerDescription {
-    margin-top: -50%;
     background-color: var(--primaire-color);
     border-radius: 0em 0em 0.4em 0.4em;
-    padding: 4em 0em 3em 0em;
+    padding: 1em 0em 3em 0em;
     width: 100%;
-    transform: scaleY(0);
-
     animation: animateContainer 1.6s forwards 1.4s;
-    will-change: transform;
-
+    will-change: transform;  
 }
 
 .animateProjet {
-
     animation: animateProject 1.6s forwards;
     transform: scale(0);
     will-change: transform;
-
 }
 
 .description {
     margin: 1em;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .btnPos {
@@ -60,7 +54,6 @@
     background: linear-gradient(180deg, var(--primaire-color) 0%, var(--secondaire-color) 40%, var(--secondaire-color) 100%);
     color: aliceblue;
     opacity: 0;
-
     animation: btnAnimate 1s forwards 2s;
     will-change: transform;
 }
@@ -70,8 +63,6 @@
 }
 
 @keyframes animateProject {
-
-
     0% {
         margin: 0;
         transform: scale(0);
@@ -83,25 +74,6 @@
         margin-bottom: 5em;
     }
 }
-
-
-
-@keyframes animateContainer {
-
-
-    0% {
-
-        transform: scale(0.5);
-    }
-
-    100% {
-        transform: scale(1);
-        margin-top: -2em;
-    }
-}
-
-
-
 
 @keyframes btnAnimate {
     0% {
@@ -120,16 +92,24 @@
 
 }
 
-
 @media screen and (max-width: 991px) {
     .projet {
         margin-top: 0em;
         margin-bottom: 3em;
     }
 
+
+        @keyframes animateContainer {    
+            0% {
+
+                margin-top: -60%;
+            }
+    
+            100% {
+            margin: 0%;
+            }
+        }
     @keyframes animateProject {
-
-
         0% {
             margin: 0;
 
@@ -164,9 +144,10 @@
       transform: scale(1);
         margin-top: 0%;
         background-color: var(--primaire-color);
+        animation: animateContainer 1s forwards 2s; 
         animation: none;
         padding: 1em 0em 1em 0em;
-        
+       
     }
 
     .listOutils {
@@ -187,6 +168,8 @@
     .description {
         margin: 0em;
         font-size: 1em;
+        text-rendering: optimizeLegibility;
+
     }
 
     .containerCard {
